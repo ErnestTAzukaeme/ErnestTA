@@ -1,6 +1,6 @@
 # Ernest Azukaeme
 
-###Education
+### Education
 Statistical Science Major
 
 ### Work Experience
