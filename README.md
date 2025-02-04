@@ -10,7 +10,7 @@
 
 ### Projects
 #### Crime Data in Chicago (2020-2025) ####
-### [https://github.com/ErnestTAzukaeme/ErnestTA/blob/bbb5eb09df60e4574ebf1a9884c1b1fe1430de1b/Projects/Chicago%20Crime%20Data.ipynb](url) ###
+### [Crime_Data]https://github.com/ErnestTAzukaeme/ErnestTA/blob/043eef3770a542e261fc31c6f83d9768e3dedbc0/Projects/Chicago%20Crime%20Data.ipynb ###
 
 
 
