@@ -1,6 +1,6 @@
 # Aspiring Analyst
 
-### Technical Skills:Python,SQL,R,Tableau
+### Technical Skills: Python, SQL, R, Tableau
 ### Education
  B.S., Statistical Science | University of Minnesota(_May 2026_)
 
