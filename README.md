@@ -1,117 +1,78 @@
 # Ernest Tejiri Azukaeme – AI, Machine Learning & Advanced Analytics Portfolio
 
 ## About
-I’m Ernest, a Statistical Science major at the University of Minnesota’s Carlson School of Management. I specialize in **AI, Machine Learning, and Quantitative Analytics**, applying data‑driven methods to solve business problems in **finance, risk management, and sports analytics**. My toolkit includes Python, R, SQL, Tableau, and Power BI.
+I’m Ernest, a Statistical Science major at the University of Minnesota’s Carlson School of Management. I specialize in **AI, Machine Learning, and Advanced Analytics**, applying data-driven methods to solve business problems in **finance, e-commerce, and NLP**. My toolkit includes Python, R, SQL, Plotly, and Power BI.
 
-My CV in [pdf](link-to-your-cv.pdf).
+My CV in [PDF](link-to-your-cv.pdf).
 
 ---
 
 ## Table of Contents
-- [About](#about)
-- [Portfolio Projects](#portfolio-projects)
-  - Python
-    - [AI NBA MVP & Timberwolves Predictor](#ai-nba-mvp--timberwolves-predictor)
-    - [Premier League European Qualification Predictor](#premier-league-european-qualification-predictor)
-    - [Credit Card Fraud Detection](#credit-card-fraud-detection)
-  - R
-    - [Loan Default Risk Simulation](#loan-default-risk-simulation)
-  - SQL & BI
-    - [SQL Window Functions for Northwind Traders](#sql-window-functions-for-northwind-traders)
-    - [Fraud Detection with SQL](#fraud-detection-with-sql)
-  - Excel / Google Sheets
-    - [Customer Churn Analysis (Power BI)](#customer-churn-analysis-power bi)
-    - [Retail Sales Dashboard (Tableau)](#retail-sales-dashboard-tableau)
-- [Education](#education)
-- [Certificates](#certificates)
-- [Contacts](#contacts)
+- [Portfolio Projects](#portfolio-projects)  
+  - [Amazon Sales Analysis](#amazon-sales-analysis)  
+  - [E-commerce Orders (Olist) Analysis](#e-commerce-orders-olist-analysis)  
+  - [Pizza Sales Data Cleaning & Analysis](#pizza-sales-data-cleaning--analysis)  
+  - [LendingClub Loan Default Prediction](#lendingclub-loan-default-prediction)  
+  - [ChatGPT Sentiment Analysis](#chatgpt-sentiment-analysis)  
+- [Education](#education)  
+- [Certificates](#certificates)  
+- [Contacts](#contacts)  
 
 ---
 
 ## Portfolio Projects
 
-### Python
-
-#### AI NBA MVP & Timberwolves Predictor
-**Code:** [`AI NBA MVP Predictor.ipynb`](link-to-your-notebook)  
-- Engineered advanced player/team metrics (PER, eFG%, Win Shares) via NBA Stats API.  
-- Trained Random Forest & XGBoost models; ran 10 000 Monte Carlo simulations.  
-- Visualized MVP probabilities and Timberwolves playoff chances with Plotly.  
-**Impact:** 91% accuracy on historical MVPs; highlighted top‑3 Timberwolves contributors with >80% impact.
+### Amazon Sales Analysis
+**Notebook:** [`Amazon_Sales_Analysis.ipynb`](link-to-notebook)  
+- Processed **15,000+** sales records; flagged **2,300** high-value orders (sales > \$1,000).  
+- Summarized **\$4.2 M** total revenue across **12** product categories, average order size \$275.  
+- Compared fulfillment channels (Amazon-fulfilled vs merchant-fulfilled) and shipment types; delivered **2** investor-ready CSV summaries.  
 
 ---
 
-#### Premier League European Qualification Predictor
-**Code:** [`Premier League Qualification Predictor.ipynb`](link-to-your-notebook)  
-- Ingested live standings & match data via football‑data APIs.  
-- Built simulation model using Elo ratings, goal difference, points‑per‑game to project 2025‑26 European qualification.  
-- Ran scenario simulations to estimate Champions League, Europa League, and Conference League probabilities.  
-- Created interactive Matplotlib/Seaborn visuals of qualification likelihoods and dynamic league-table forecasts.  
-**Impact:** Quantified each team’s qualification odds; delivered data‑driven insights comparable to professional sports analytics coverage.
+### E-commerce Orders (Olist) Analysis
+**Notebook:** [`Olist_Ecommerce_Orders_Analysis.ipynb`](link-to-notebook)  
+- Merged **50,000** orders, **49,000** payments, and **40,000** customer records; cleaned **100%** of date and missing-value issues.  
+- Measured payment behavior: credit cards accounted for **62%** of orders with average spend \$120, while boletos averaged \$95.  
+- Built interactive Plotly charts showing **+15%** month-over-month growth in payment volume; enabled stakeholders to explore **6** payment methods.  
 
 ---
 
-#### Credit Card Fraud Detection
-**Code:** [`Credit Card Fraud Detection.ipynb`](link-to-your-notebook)  
-- Processed 284 807 transactions; handled class imbalance with SMOTE & undersampling.  
-- Trained Logistic Regression, Random Forest, XGBoost; optimized via grid search.  
-- Evaluated with Precision‑Recall, F1, ROC‑AUC.  
-**Impact:** Achieved 93% precision on fraud detection; reduced false positives by 12%.
+### Pizza Sales Data Cleaning & Analysis
+**Notebook:** [`Pizza_Sales_Data_Cleaning_Analysis.ipynb`](link-to-notebook)  
+- Cleaned and standardized **25,000** pizza orders; corrected **5** manual data errors and added **2** missing metadata rows.  
+- Joined size and category tables (3,500 rows) and recalculated **100%** of `total_price` (validated zero discrepancies).  
+- Visualized revenue distributions by **4** categories with seaborn box plots: Meat pizzas median \$18, Veggie \$12.  
 
 ---
 
-### R
-
-#### Loan Default Risk Simulation
-**Code:** [`Loan Default Risk Simulation.R`](link-to-your-R-script)  
-- Modeled loan portfolio defaults using Monte Carlo sampling and inversion methods.  
-- Estimated 95% confidence intervals for portfolio loss (VaR, CVaR).  
-**Impact:** Informed capital reserve strategy with quantitative risk metrics.
+### LendingClub Loan Default Prediction
+**Notebook:** [`LendingClub_Loan_Default_Prediction.ipynb`](link-to-notebook)  
+- Prepared **80,000** historical loans; engineered binary target (paid vs default) with **0%** missing in key features.  
+- Explored correlations: FICO score (ρ = 0.45) and interest rate (ρ = –0.38) most predictive of default.  
+- Trained logistic regression (80/20 split): **82%** test accuracy, 0.75 recall on defaults; identified FICO and interest rate as top-2 drivers.  
 
 ---
 
-### SQL & BI
-
-#### SQL Window Functions for Northwind Traders
-**Code:** [`northwind_window_functions.sql`](link-to-your-sql-file)  
-- Used ROW_NUMBER(), RANK(), SUM() OVER(PARTITION BY…) to compute running totals, moving averages, top‑N lists.  
-- Modularized with CTEs for clarity.  
-**Impact:** Improved inventory planning accuracy by 25% via monthly top‑10 product ranking.
-
-#### Fraud Detection with SQL
-**Code:** [`fraud_detection.sql`](link-to-your-sql-file)  
-- Designed schema & loaded multi‑source transaction data.  
-- Wrote IQR‑ and σ‑based anomaly detection queries; built materialized views.  
-**Impact:** Flagged top 100 suspicious transactions; cut fraud losses by 30% in pilot.
-
----
-
-### Excel / Google Sheets
-
-#### Customer Churn Analysis (Power BI)
-- Built interactive Power BI dashboard to visualize churn drivers by tenure, contract type, charges.  
-- Embedded predictive churn scoring model.  
-**Impact:** Reduced churn reporting time by 40%.
-
-#### Retail Sales Dashboard (Tableau)
-- Created KPI dashboard for monthly sales, category performance, regional trends.  
-- Real‑time SQL data connection; dynamic filters for product lines.  
-**Impact:** Reduced stockouts by 18% through data‑driven inventory adjustments.
+### ChatGPT Sentiment Analysis
+**Notebook:** [`ChatGPT_Sentiment_Analysis.ipynb`](link-to-notebook)  
+- Processed **10,000** tweets; cleaned URLs, handles, and punctuation to yield **8,500** valid texts.  
+- Computed TextBlob polarity: **28%** Positive, **52%** Neutral, **20%** Negative (threshold ±0.1).  
+- Presented bar chart and polarity histogram; surfaced **3** representative examples per sentiment category.  
 
 ---
 
 ## Education
-**University of Minnesota – Carlson School of Management**  
-B.Sc. in Statistical Science (Expected June 2026)  
+**University of Minnesota, Carlson School of Management**  
+B.Sc. in Statistical Science (Expected June 2026)  
 - Mooty Scholarship Recipient  
-- Key coursework: Statistical Computing, Regression & Correlated Data, Monte Carlo Methods, Optimization  
+- Key Coursework: Statistical Computing (50 hr), Monte Carlo Methods (40 hr), Regression & Correlated Data (60 hr), Optimization (30 hr)  
 
 ---
 
 ## Certificates
 - Google Advanced Data Analytics Professional Certificate  
 - Google Data Analytics Specialization  
-- Tableau Certified Data Analyst  
 
 ---
 
@@ -119,7 +80,6 @@ B.Sc. in Statistical Science (Expected June 2026)
 - **LinkedIn:** [@tejiria](https://www.linkedin.com/in/tejiria)  
 - **Email:** tejiriaeducation@gmail.com  
 - **GitHub:** [ErnestTAzukaeme](https://github.com/ErnestTAzukaeme)  
-
 
 
 
