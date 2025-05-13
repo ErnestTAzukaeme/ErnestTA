@@ -1,82 +1,68 @@
-# Ernest Tejiri Azukaeme – AI, Machine Learning & Advanced Analytics Portfolio
+# Ernest Tejiri Azukaeme – Risk Management Analytics, Machine Learning & Statistical Machine Learning Portfolio
 
-## About
-I’m Ernest, a Statistical Science major at the University of Minnesota’s Carlson School of Management. I specialize in **AI, Machine Learning, and Advanced Analytics**, applying data-driven methods to solve business problems in **finance, e-commerce, and NLP**. My toolkit includes Python, R, SQL, Plotly, and Power BI.
+## 📄 About  
+I'm Ernest, a Statistical Science major at the University of Minnesota’s Carlson School of Management. I specialize in **risk management analytics**, **machine learning**, and **statistical machine learning**, applying rigorous quantitative methods to identify, model, and mitigate risk in finance, e-commerce, and NLP.  
 
-My CV in [PDF](link-to-your-cv.pdf).
-
----
-
-## Table of Contents
-- [Portfolio Projects](#portfolio-projects)  
-  - [Amazon Sales Analysis](#amazon-sales-analysis)  
-  - [E-commerce Orders (Olist) Analysis](#e-commerce-orders-olist-analysis)  
-  - [Pizza Sales Data Cleaning & Analysis](#pizza-sales-data-cleaning--analysis)  
-  - [LendingClub Loan Default Prediction](#lendingclub-loan-default-prediction)  
-  - [ChatGPT Sentiment Analysis](#chatgpt-sentiment-analysis)  
-- [Education](#education)  
-- [Certificates](#certificates)  
-- [Contacts](#contacts)  
+📄 [View My CV (PDF)](https://drive.google.com/file/d/1H3Ic5f08p8zCTC2ZUzRduJ38dnBu91ZL/view)  
 
 ---
 
-## Portfolio Projects
+## 📂 Portfolio Projects
 
-### Amazon Sales Analysis
-**Notebook:** [`Amazon_Sales_Analysis.ipynb`](link-to-notebook)  
-- Processed **15,000+** sales records; flagged **2,300** high-value orders (sales > \$1,000).  
-- Summarized **\$4.2 M** total revenue across **12** product categories, average order size \$275.  
-- Compared fulfillment channels (Amazon-fulfilled vs merchant-fulfilled) and shipment types; delivered **2** investor-ready CSV summaries.  
+### 📊 Risk & Statistical Machine Learning Portfolio  
+*(Under development — coming senior year)*
 
 ---
 
-### E-commerce Orders (Olist) Analysis
-**Notebook:** [`Olist_Ecommerce_Orders_Analysis.ipynb`](link-to-notebook)  
-- Merged **50,000** orders, **49,000** payments, and **40,000** customer records; cleaned **100%** of date and missing-value issues.  
-- Measured payment behavior: credit cards accounted for **62%** of orders with average spend \$120, while boletos averaged \$95.  
-- Built interactive Plotly charts showing **+15%** month-over-month growth in payment volume; enabled stakeholders to explore **6** payment methods.  
+### 📈 Analytical & Machine Learning Portfolio
+
+#### Amazon Sales Analysis  
+**Notebook:** `Amazon_Sales_Analysis.ipynb`  
+- Processed 15,000+ sales records; flagged 2,300 high-value orders (>$1,000).  
+- Summarized $4.2 M total revenue across 12 product categories; average order size $275.  
+- Compared fulfillment channels and shipment types; delivered investor-ready CSV summaries.
+
+#### E-commerce Orders (Olist) Analysis  
+**Notebook:** `Olist_Ecommerce_Orders_Analysis.ipynb`  
+- Merged 50K orders, 49K payments, and 40K customer records; cleaned 100% of date and missing-value issues.  
+- Measured payment behavior: credit cards accounted for 62% of orders (avg $120), boletos $95.  
+- Built interactive Plotly dashboards showing +15% month-over-month growth.
+
+#### Pizza Sales Data Cleaning & Analysis  
+**Notebook:** `Pizza_Sales_Data_Cleaning_Analysis.ipynb`  
+- Cleaned and standardized 25,000 pizza orders; corrected 5 manual data errors and added 2 missing metadata rows.  
+- Recalculated all `total_price` values with zero discrepancies.  
+- Visualized revenue distributions by category using seaborn box plots.
+
+#### LendingClub Loan Default Prediction  
+**Notebook:** `LendingClub_Loan_Default_Prediction.ipynb`  
+- Engineered a binary “paid vs default” label on 80,000 loan records with 0% missing in key features.  
+- Identified FICO score (ρ = 0.45) and interest rate (ρ = –0.38) as strongest predictors of default.  
+- Built a logistic regression model achieving 82% test accuracy and 0.75 recall on defaults.
+
+#### ChatGPT Sentiment Analysis  
+**Notebook:** `ChatGPT_Sentiment_Analysis.ipynb`  
+- Processed 10,000 tweets; cleaned URLs, handles, and punctuation to yield 8,500 high-quality texts.  
+- Applied TextBlob to classify sentiment: 28% Positive, 52% Neutral, 20% Negative.  
+- Presented bar chart and polarity histogram; surfaced representative examples per category.
 
 ---
 
-### Pizza Sales Data Cleaning & Analysis
-**Notebook:** [`Pizza_Sales_Data_Cleaning_Analysis.ipynb`](link-to-notebook)  
-- Cleaned and standardized **25,000** pizza orders; corrected **5** manual data errors and added **2** missing metadata rows.  
-- Joined size and category tables (3,500 rows) and recalculated **100%** of `total_price` (validated zero discrepancies).  
-- Visualized revenue distributions by **4** categories with seaborn box plots: Meat pizzas median \$18, Veggie \$12.  
-
----
-
-### LendingClub Loan Default Prediction
-**Notebook:** [`LendingClub_Loan_Default_Prediction.ipynb`](link-to-notebook)  
-- Prepared **80,000** historical loans; engineered binary target (paid vs default) with **0%** missing in key features.  
-- Explored correlations: FICO score (ρ = 0.45) and interest rate (ρ = –0.38) most predictive of default.  
-- Trained logistic regression (80/20 split): **82%** test accuracy, 0.75 recall on defaults; identified FICO and interest rate as top-2 drivers.  
-
----
-
-### ChatGPT Sentiment Analysis
-**Notebook:** [`ChatGPT_Sentiment_Analysis.ipynb`](link-to-notebook)  
-- Processed **10,000** tweets; cleaned URLs, handles, and punctuation to yield **8,500** valid texts.  
-- Computed TextBlob polarity: **28%** Positive, **52%** Neutral, **20%** Negative (threshold ±0.1).  
-- Presented bar chart and polarity histogram; surfaced **3** representative examples per sentiment category.  
-
----
-
-## Education
-**University of Minnesota, Carlson School of Management**  
-B.Sc. in Statistical Science (Expected June 2026)  
+## 🎓 Education  
+**University of Minnesota – Carlson School of Management**  
+_Bachelor of Science in Statistical Science (Expected June 2026)_  
 - Mooty Scholarship Recipient  
-- Key Coursework: Statistical Computing (50 hr), Monte Carlo Methods (40 hr), Regression & Correlated Data (60 hr), Optimization (30 hr)  
+- Key Courses: Risk Management & Insurance Analytics; Statistical Computing; Monte Carlo Methods; Regression & Correlated Data; Optimization
 
 ---
 
-## Certificates
+## 📜 Certificates  
 - Google Advanced Data Analytics Professional Certificate  
 - Google Data Analytics Specialization  
 
 ---
 
-## Contacts
+## 📬 Contact  
 - **LinkedIn:** [@tejiria](https://www.linkedin.com/in/tejiria)  
 - **Email:** tejiriaeducation@gmail.com  
 - **GitHub:** [ErnestTAzukaeme](https://github.com/ErnestTAzukaeme)  
