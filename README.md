@@ -14,13 +14,13 @@ I'm Ernest, a Statistical Science major at the University of Minnesota’s Carls
 
 ---
 
-### 📈 Analytical & Machine Learning Portfolio
+### 📈 Data Analytics Portfolio
 
 #### Amazon Sales Analysis  
 **Notebook:** `Amazon_Sales_Analysis.ipynb`  
-- Processed 15,000+ sales records; flagged 2,300 high-value orders (>$1,000).  
-- Summarized $4.2 M total revenue across 12 product categories; average order size $275.  
-- Compared fulfillment channels and shipment types; delivered investor-ready CSV summaries.
+-  Cleaned and analyzed **996** Amazon sales records, eliminating all missing `Amount` values to ensure complete financial accuracy.  
+-  Discovered that **156** transactions over **\$1,000** generated **24.8%** of total revenue.  
+-  Identified the top-performing shipment–fulfillment method (**Delivered** + **Self-fulfilled**), which produced **\$21,750** in sales.
 
 #### E-commerce Orders (Olist) Analysis  
 **Notebook:** `Olist_Ecommerce_Orders_Analysis.ipynb`  
