@@ -1,7 +1,7 @@
-# Ernest Tejiri Azukaeme – Risk Management Analytics, Machine Learning & Statistical Machine Learning Portfolio
+# Ernest Tejiri Azukaeme – Statistical Science Student @ UMN 2026
 
 ## 📄 About  
-I'm Ernest, a Statistical Science major at the University of Minnesota’s Carlson School of Management. I specialize in **risk management analytics**, **machine learning**, and **statistical machine learning**, applying rigorous quantitative methods to identify, model, and mitigate risk in finance, e-commerce, and NLP.  
+I'm Ernest, I’m Ernest Azukaeme, a Statistical Science major at the University of Minnesota’s Twin Cities. I specialize in Data Analytics, Data Science, and statistical analysis.
 
 📄 [View My CV (PDF)](https://drive.google.com/file/d/1H3Ic5f08p8zCTC2ZUzRduJ38dnBu91ZL/view)  
 
@@ -9,7 +9,7 @@ I'm Ernest, a Statistical Science major at the University of Minnesota’s Carls
 
 ## 📂 Portfolio Projects
 
-### 📊 Risk & Statistical Machine Learning Portfolio  
+### 📊 Statistical Analysis  Portfolio  
 *(Under development — coming senior year)*
 
 ---
@@ -17,7 +17,7 @@ I'm Ernest, a Statistical Science major at the University of Minnesota’s Carls
 ### 📈 Data Analytics Portfolio
 
 #### Amazon Sales Analysis  
-**Notebook:** `Amazon_Sales_Analysis.ipynb`  
+[Amazon_Sales](https://github.com/ErnestTAzukaeme/ErnestTA/tree/main/Amazon%20Sales/)  
 -  Cleaned and analyzed **996** Amazon sales records, eliminating all missing `Amount` values to ensure complete financial accuracy.  
 -  Discovered that **156** transactions over **\$1,000** generated **24.8%** of total revenue.  
 -  Identified the top-performing shipment–fulfillment method (**Delivered** + **Self-fulfilled**), which produced **\$21,750** in sales.
