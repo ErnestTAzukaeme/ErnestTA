@@ -17,7 +17,7 @@ I'm Ernest, I’m Ernest Azukaeme, a Statistical Science major at the University
 ### 📈 Data Analytics Portfolio
 
 #### Amazon Sales Analysis  
-[Amazon_Sales](https://github.com/ErnestTAzukaeme/ErnestTA/tree/main/Amazon%20Sales/)  
+**View code:** [Amazon_Project.py](https://github.com/ErnestTAzukaeme/ErnestTA/blob/91ec21100cb5c8f5121bb304c63a9d05bbdb09d4/Amazon%20Sales/Amazon_Project.py) 
 -  Cleaned and analyzed **996** Amazon sales records, eliminating all missing `Amount` values to ensure complete financial accuracy.  
 -  Discovered that **156** transactions over **\$1,000** generated **24.8%** of total revenue.  
 -  Identified the top-performing shipment–fulfillment method (**Delivered** + **Self-fulfilled**), which produced **\$21,750** in sales.
