@@ -17,17 +17,16 @@ I'm Ernest, I’m Ernest Azukaeme, a Statistical Science major at the University
 ### 📈 Data Analytics Portfolio
 
 #### Amazon Sales Analysis  
-**View project files:** [Amazon Project](https://github.com/ErnestTAzukaeme/ErnestTA/tree/91ec21100cb5c8f5121bb304c63a9d05bbdb09d4/Amazon%20Sales)  
+**View project file:** [Amazon Project](https://github.com/ErnestTAzukaeme/ErnestTA/tree/91ec21100cb5c8f5121bb304c63a9d05bbdb09d4/Amazon%20Sales)  
 -  Cleaned and analyzed **996** Amazon sales records, eliminating all missing `Amount` values to ensure complete financial accuracy.  
 -  Discovered that **156** transactions over **\$1,000** generated **24.8%** of total revenue.  
 -  Identified the top-performing shipment–fulfillment method (**Delivered** + **Self-fulfilled**), which produced **\$21,750** in sales.
 
 #### E-commerce Orders (Olist) Analysis  
-**Notebook:** `Olist_Ecommerce_Orders_Analysis.ipynb`  
-- Merged 50K orders, 49K payments, and 40K customer records; cleaned 100% of date and missing-value issues.  
-- Measured payment behavior: credit cards accounted for 62% of orders (avg $120), boletos $95.  
-- Built interactive Plotly dashboards showing +15% month-over-month growth.
-
+**View project file:** [Ecom Project](https://github.com/ErnestTAzukaeme/ErnestTA/tree/main/Ecommerce%20Orders%20Project)  
+-  Cleaned and merged **50 K** orders, **49 K** payments, and **40 K** customer records; resolved 100 % of date-parsing and missing-value issues.  
+-  Measured payment behavior: credit cards drove **62 %** of transactions (avg \$120), while boletos averaged \$95.  
+-  Built interactive Plotly dashboards highlighting **+15 %** month-over-month growth in total payment value.  
 #### Pizza Sales Data Cleaning & Analysis  
 **Notebook:** `Pizza_Sales_Data_Cleaning_Analysis.ipynb`  
 - Cleaned and standardized 25,000 pizza orders; corrected 5 manual data errors and added 2 missing metadata rows.  
