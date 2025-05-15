@@ -24,14 +24,14 @@ I'm Ernest, I’m Ernest Azukaeme, a Statistical Science major at the University
 
 #### E-commerce Orders (Olist) Analysis  
 **View project file:** [Ecom Project](https://github.com/ErnestTAzukaeme/ErnestTA/tree/main/Ecommerce%20Orders%20Project)  
--  Cleaned and merged **50 K** orders, **49 K** payments, and **40 K** customer records; resolved 100 % of date-parsing and missing-value issues.  
--  Measured payment behavior: credit cards drove **62 %** of transactions (avg \$120), while boletos averaged \$95.  
--  Built interactive Plotly dashboards highlighting **+15 %** month-over-month growth in total payment value.  
+- Cleaned & merged ~100 K orders, ~104 K payments, and ~99 K customers using pandas in Spyder (drop_duplicates, fillna, to_datetime)  
+- Aggregated monthly revenue with pandas groupby and plotted month-over-month trends using seaborn line charts  
+- Visualized payment-type breakdowns with seaborn boxplots and customer segmentation via scatterplots, leveraging matplotlib for customization  
 #### Pizza Sales Data Cleaning & Analysis  
-**Notebook:** `Pizza_Sales_Data_Cleaning_Analysis.ipynb`  
-- Cleaned and standardized 25,000 pizza orders; corrected 5 manual data errors and added 2 missing metadata rows.  
-- Recalculated all `total_price` values with zero discrepancies.  
-- Visualized revenue distributions by category using seaborn box plots.
+**View project file:** [Pizza Sales Project](https://github.com/ErnestTAzukaeme/ErnestTA/tree/1f79dcedc6ad7ed30ea1172e69493ade71820ccd/Pizza%20Sales)  
+- Cleaned and standardized **25 000** pizza orders; corrected **5** manual-entry errors and inserted **2** missing metadata rows  
+- Verified **100 %** accuracy of `total_price` recalculations with **0** discrepancies  
+- Uncovered median order values via seaborn box plots: **\$14.50** (Classic), **\$17.00** (Veggie), **\$18.20** (Supreme), **\$19.10** (Chicken); top 5 % orders exceed **\$30** 
 
 #### LendingClub Loan Default Prediction  
 **Notebook:** `LendingClub_Loan_Default_Prediction.ipynb`  
