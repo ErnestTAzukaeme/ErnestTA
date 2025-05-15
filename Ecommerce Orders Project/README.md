@@ -59,4 +59,4 @@ The objectives were to:
 - **orders.xlsx** — raw order data  
 - **order_payment.xlsx** — raw payment data  
 - **customers.xlsx** — raw customer data  
-- **[my_plot.png](https://raw.githubusercontent.com/ErnestTAzukaeme/ErnestTA/a2df24c72efe48e8340c2c923424dff7e5ef6056/Ecommerce%20Orders%20Project/My%20Plots/my_plot.png)** — Visualizations  
+- **[Plots](https://github.com/ErnestTAzukaeme/ErnestTA/tree/05259bfa64c057e2e0c02b70996b0f06e58bd5c0/Ecommerce%20Orders%20Project/My%20Plots)** — Visualizations  
