@@ -59,4 +59,4 @@ The objectives were to:
 - **orders.xlsx** — raw order data  
 - **order_payment.xlsx** — raw payment data  
 - **customers.xlsx** — raw customer data  
-- **my_plot.png** — combined visualization output  
+- **my_plot.png** — Visualizations
