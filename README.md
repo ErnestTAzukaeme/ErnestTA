@@ -1,7 +1,7 @@
 # Ernest Tejiri Azukaeme – Statistical Science Student @ UMN 2026
 
 ## 📄 About  
-I'm Ernest, I’m Ernest Azukaeme, a Statistical Science major at the University of Minnesota’s Twin Cities. I specialize in Data Analytics, Data Science, and statistical analysis.
+I’m Ernest Azukaeme, a junior majoring in Statistical Science at the University of Minnesota – Twin Cities. I am keenly interested in Data Analytics, Data Science, and statistical analysis, and I’m actively seeking an internship opportunity or role in any analytical field.
 
 📄 [View My CV (PDF)](https://drive.google.com/file/d/1H3Ic5f08p8zCTC2ZUzRduJ38dnBu91ZL/view)  
 
@@ -9,12 +9,12 @@ I'm Ernest, I’m Ernest Azukaeme, a Statistical Science major at the University
 
 ## 📂 Portfolio Projects
 
-### 📊 Statistical Analysis  Portfolio  
+### 📊 Statistical Analysis/Data Science/Machine Learning  Portfolio  
 *(Under development — coming senior year)*
 
 ---
 
-### 📈 Data Analytics Portfolio
+### 📈 Data Analytics/Cleaning Using Python
 
 #### Amazon Sales Analysis  
 **View project file:** [Amazon Project](https://github.com/ErnestTAzukaeme/ErnestTA/tree/91ec21100cb5c8f5121bb304c63a9d05bbdb09d4/Amazon%20Sales)  
@@ -33,17 +33,7 @@ I'm Ernest, I’m Ernest Azukaeme, a Statistical Science major at the University
 - Verified **100 %** accuracy of `total_price` recalculations with **0** discrepancies  
 - Uncovered median order values via seaborn box plots: **\$14.50** (Classic), **\$17.00** (Veggie), **\$18.20** (Supreme), **\$19.10** (Chicken); top 5 % orders exceed **\$30** 
 
-#### LendingClub Loan Default Prediction  
-**Notebook:** `LendingClub_Loan_Default_Prediction.ipynb`  
-- Engineered a binary “paid vs default” label on 80,000 loan records with 0% missing in key features.  
-- Identified FICO score (ρ = 0.45) and interest rate (ρ = –0.38) as strongest predictors of default.  
-- Built a logistic regression model achieving 82% test accuracy and 0.75 recall on defaults.
 
-#### ChatGPT Sentiment Analysis  
-**Notebook:** `ChatGPT_Sentiment_Analysis.ipynb`  
-- Processed 10,000 tweets; cleaned URLs, handles, and punctuation to yield 8,500 high-quality texts.  
-- Applied TextBlob to classify sentiment: 28% Positive, 52% Neutral, 20% Negative.  
-- Presented bar chart and polarity histogram; surfaced representative examples per category.
 
 ---
 
