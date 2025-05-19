@@ -1,7 +1,7 @@
 # Ernest Tejiri Azukaeme – Statistical Science Student @ UMN 2026
 
 ## 📄 About  
-I’m Ernest Azukaeme, a junior majoring in Statistical Science at the University of Minnesota – Twin Cities. I am keenly interested in Data Analytics, Data Science, and statistical analysis, and I’m actively seeking an internship opportunity or role in any analytical field.
+I’m Ernest Azukaeme, a junior majoring in Statistical Science at the University of Minnesota—Twin Cities. I am keenly interested in Data Analytics, Data Science, Environmental safety, risk management, and statistical analysis, and I’m actively seeking an internship or role in any analytical field.
 
 📄 [View My CV (PDF)](https://drive.google.com/file/d/1yS9oHR19bmviosDYPcw9IfwgT-YUXeZ_/view?usp=sharing)  
 
