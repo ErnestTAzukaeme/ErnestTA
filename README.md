@@ -12,7 +12,7 @@ I’m Ernest Azukaeme, a junior majoring in Statistical Science at the Universit
 ### 📊 Statistical Analysis / Data Science / Machine Learning Portfolio  
 
 #### HazMat Incident Prediction & Response Dashboard  
-**View project file:** [Project](https://github.com/ErnestTAzukaeme/hazmat-dashboard)  
+**View project file:** [Project](https://github.com/ErnestTAzukaeme/ErnestTA/tree/main/Hazard_Analysis)  
 - Cleaned 15K+ HazMat records with Pandas to fix nulls and unify units  
 - Engineered 12 features on spill volume, injuries and material and visualized trends with Seaborn  
 - Built Random Forest and OLS models in scikit-learn to predict risk and estimate damage costs  
