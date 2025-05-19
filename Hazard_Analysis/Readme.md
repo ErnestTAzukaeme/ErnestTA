@@ -19,9 +19,9 @@ This single function ties together data prep, modeling, and reporting so anyone 
 
 We use the U.S. Hazardous Materials Incident Data from Kaggle:
 
-- **Link:** https://www.kaggle.com/datasets/phmsa/us-hazardous-materials-incident-data
+- **Link:** https://www.kaggle.com/datasets/webmadster/phmsa-incidents-since-2010
 
 ## References
 
-1. [U.S. DOT PHMSA Annual Hazardous Materials Incident Report (2021)](https://www.phmsa.dot.gov/sites/phmsa.dot.gov/files/docs/annual-hazardous-materials-incident-report-2021.pdf)  
-2. [UNEP Global Overview of Hazardous Materials Incidents (2020)](https://www.unep.org/resources/report/global-overview-hazardous-materials-incidents-2020)  
+1. [HAZMAT Biennial Report (Jan 2021)](https://www.phmsa.dot.gov/sites/phmsa.dot.gov/files/2021-01/HAZMAT%20Biennial%20Report%20-%20Jan%202021.pdf) – PHMSA data on hazardous materials transportation incidents  
+2. [Global Chemicals Outlook II – Synthesis Report (2019)](https://wedocs.unep.org/bitstream/handle/20.500.11822/28103/GCOII_Synthesis.pdf) – United Nations Environment Programme insights on global chemical trends  
