@@ -21,7 +21,4 @@ We use the U.S. Hazardous Materials Incident Data from Kaggle:
 
 - **Link:** https://www.kaggle.com/datasets/webmadster/phmsa-incidents-since-2010
 
-## References
 
-1. [HAZMAT Biennial Report (Jan 2021)](https://www.phmsa.dot.gov/sites/phmsa.dot.gov/files/2021-01/HAZMAT%20Biennial%20Report%20-%20Jan%202021.pdf) – PHMSA data on hazardous materials transportation incidents  
-2. [Global Chemicals Outlook II – Synthesis Report (2019)](https://wedocs.unep.org/bitstream/handle/20.500.11822/28103/GCOII_Synthesis.pdf) – United Nations Environment Programme insights on global chemical trends  
