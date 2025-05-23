@@ -17,7 +17,7 @@ This single function ties together data prep, modeling, and reporting so anyone 
 
 ## Dataset
 
-We use the U.S. Hazardous Materials Incident Data from Kaggle:
+ the dataset used for this model is the U.S. Hazardous Materials Incident Data from Kaggle:
 
 - **Link:** https://www.kaggle.com/datasets/webmadster/phmsa-incidents-since-2010
 
