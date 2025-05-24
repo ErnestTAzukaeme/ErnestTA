@@ -1,24 +1,19 @@
-# Hazardous Materials Incident Analysis
+# Hazard Analysis: U.S. Pipeline Hazmat Incidents (2010–2018)
 
-## Project Motivation & Background
+## Purpose
+Analyze and predict hazardous material pipeline incidents in the U.S. from 2010 to 2018. The project identifies patterns and provides insights to enhance safety planning and hazard mitigation efforts.
 
-As a National Guard Hazardous Materials Specialist with four years of experience in an aviation unit, I've led spill cleanup operations, conducted safety checks, and trained new soldiers on hazmat protocols. Hazardous materials spills can cause serious harm to people and the environment, so I'm passionate about spotting trends, predicting future incidents, and helping teams build better safety plans.
+## Background
+Leveraging 4 years of experience as a National Guard Hazmat Specialist, the author combines practical hazmat expertise with data science skills developed through Jose Portilla’s [*Python for Machine Learning and Data Science*](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/) course.
 
-## What the Function Does
+## Methods
+- **Data Preprocessing:** Cleaned data and engineered features using Pandas ([PHMSA Incidents Dataset](https://www.kaggle.com/datasets/webmadster/phmsa-incidents-since-2010)).
+- **Exploratory Analysis & Visualization:** Created interactive visualizations using Plotly Dash to highlight incident trends and geographic patterns.
+- **Modeling & Prediction:** Built and optimized Logistic Regression, Random Forest, and XGBoost models, interpreting results with SHAP values.
+- **Clustering & Anomaly Detection:** Identified incident patterns and anomalies with KMeans clustering and Isolation Forest.
 
-The main function, `analyze_hazmat_incidents()`, runs the full analysis pipeline:
-
-1. **Load & clean data**: Read the raw incident data and remove errors.  
-2. **Create features**: Compute metrics like spill volume, injury counts, and chemical types.  
-3. **Train models**: Build Random Forest and linear regression models to predict incident risk and cost.  
-4. **Generate visuals**: Make charts and a live Dash dashboard to explore trends and outputs.  
-
-This single function ties together data prep, modeling, and reporting so anyone can reproduce the results.
-
-## Dataset
-
- the dataset used for this model is the U.S. Hazardous Materials Incident Data from Kaggle:
-
-- **Link:** https://www.kaggle.com/datasets/webmadster/phmsa-incidents-since-2010
-
-
+## Project Highlights
+- **Enhanced Data Quality:** Cleaned over **1,200+ records** using Pandas, significantly improving dataset reliability.
+- **Improved Model Recall:** Increased predictive recall by approximately **90%** using a tuned XGBoost classifier.
+- **Anomaly Identification:** Detected and analyzed **33 anomalous incidents** via Isolation Forest for targeted hazard prevention.
+- **Interactive Dashboards:** Developed interactive Plotly Dash visualizations, enabling stakeholders to explore incident data effectively.
