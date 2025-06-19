@@ -16,4 +16,4 @@ Leveraging 4 years of experience as a National Guard Hazmat Specialist, the auth
 - **Enhanced Data Quality:** Cleaned over **1,200+ records** using Pandas, significantly improving dataset reliability.
 - **Improved Model Recall:** Increased predictive recall by approximately **90%** using a tuned XGBoost classifier.
 - **Anomaly Identification:** Detected and analyzed **33 anomalous incidents** via Isolation Forest for targeted hazard prevention.
-- **Interactive Dashboards:** Developed interactive Plotly Dash visualizations, enabling stakeholders to explore incident data effectively.
+
