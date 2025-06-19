@@ -16,7 +16,6 @@ I’m Ernest Azukaeme, a junior majoring in Statistical Science at the Universit
 - Cleaned 15K+ HazMat records with Pandas to fix nulls and unify units  
 - Engineered 12 features on spill volume, injuries and material and visualized trends with Seaborn  
 - Built Random Forest and OLS models in scikit-learn to predict risk and estimate damage costs  
-- Deployed a Plotly Dash dashboard with four filters and drill-down maps for live monitoring  
 
 ---
 
