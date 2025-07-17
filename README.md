@@ -42,7 +42,7 @@ I’m Ernest Azukaeme, a junior majoring in Statistical Science at the Universit
 ---
 
 ## 🎓 Education  
-**University of Minnesota – Carlson School of Management**  
+**University of Minnesota – Twin Cities**  
 _Bachelor of Science in Statistical Science (Expected June 2026)_  
 - Mooty Scholarship Recipient  
 - Key Courses: Risk Management & Insurance Analytics; Statistical Computing; Monte Carlo Methods; Regression & Correlated Data; Optimization
