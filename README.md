@@ -1,69 +1,48 @@
-# Ernest Tejiri Azukaeme – Statistical Science Student @ UMN 2026
+# SEC EDGAR Client
 
-## 📄 About  
-I’m Ernest Azukaeme, a junior majoring in Statistical Science at the University of Minnesota—Twin Cities. I am keenly interested in Data Analytics, Data Science, Environmental safety, risk management, and statistical analysis, and I’m actively seeking an internship or role in any analytical field.
+This project provides a Python command-line tool to look up a company's CIK (Central Index Key) and retrieve the latest 10-Q or 10-K filings from the SEC EDGAR system.
 
-📄 [View My CV (PDF)](https://drive.google.com/file/d/1yS9oHR19bmviosDYPcw9IfwgT-YUXeZ_/view?usp=sharing)  
+## Features
+- Lookup CIK by ticker symbol
+- Retrieve the latest 10-Q (quarterly) or 10-K (annual) filing for a company
+- Print the direct URL to the filing document
+- (Optional) Download the filing document as HTML
 
----
+## Requirements
+- Python 3.7+
+- `requests` library (install with `pip install requests`)
 
-## 📂 Portfolio Projects
+## Usage
+1. Open a terminal and navigate to the project directory:
+   ```sh
+   cd "C:\Users\tejir\Downloads\GEN AI"
+   ```
+2. Run the script with the ticker and form type:
+   ```sh
+   python sec_edgar_client.py AAPL 10-Q
+   ```
+   or (on Windows):
+   ```sh
+   py sec_edgar_client.py AAPL 10-Q
+   ```
+   This will print the latest 10-Q URL for Apple (AAPL).
 
-### 📊 Statistical Analysis / Data Science / Machine Learning Portfolio  
+3. To download the document, uncomment the download lines in the script.
 
-#### HazMat Incident Prediction & Response Dashboard  
-**View project file:** [Project](https://github.com/ErnestTAzukaeme/ErnestTA/tree/main/Hazard_Analysis)  
-- Cleaned 15K+ HazMat records with Pandas to fix nulls and unify units  
-- Engineered 12 features on spill volume, injuries and material and visualized trends with Seaborn  
-- Built Random Forest and OLS models in scikit-learn to predict risk and estimate damage costs  
+## How it Works
+- The script loads a mapping of ticker symbols to CIKs from the SEC.
+- It fetches the company's recent filings and finds the latest 10-Q or 10-K.
+- It constructs the direct URL to the filing document and prints it.
 
----
+## Example Output
+```
+Latest 10-Q for AAPL (CIK 0000320193):
+https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm
+```
 
-### 📈 Data Analytics / Cleaning Using Python
+## Notes
+- The script uses a custom User-Agent as required by the SEC's fair access policy.
+- You can use any valid ticker symbol and form type (e.g., 10-K, 10-Q).
 
-#### Amazon Sales Analysis  
-**View project file:** [Amazon Project](https://github.com/ErnestTAzukaeme/ErnestTA/tree/91ec21100cb5c8f5121bb304c63a9d05bbdb09d4/Amazon%20Sales)  
-- Cleaned and analyzed **996** Amazon sales records, eliminating all missing `Amount` values to ensure complete financial accuracy.  
-- Discovered that **156** transactions over **$1,000** generated **24.8%** of total revenue.  
-- Identified the top-performing shipment–fulfillment method (**Delivered** + **Self-fulfilled**), which produced **$21,750** in sales.
-
-#### E-commerce Orders (Olist) Analysis  
-**View project file:** [Ecom Project](https://github.com/ErnestTAzukaeme/ErnestTA/tree/main/Ecommerce%20Orders%20Project)  
-- Cleaned & merged ~100 K orders, ~104 K payments, and ~99 K customers using pandas in Spyder (drop_duplicates, fillna, to_datetime)  
-- Aggregated monthly revenue with pandas `groupby` and plotted month-over-month trends using seaborn line charts  
-- Visualized payment-type breakdowns with seaborn boxplots and customer segmentation via scatterplots, leveraging matplotlib for customization
-
-#### Pizza Sales Data Cleaning & Analysis  
-**View project file:** [Pizza Sales Project](https://github.com/ErnestTAzukaeme/ErnestTA/tree/1f79dcedc6ad7ed30ea1172e69493ade71820ccd/Pizza%20Sales)  
-- Cleaned and standardized **25,000** pizza orders; corrected **5** manual-entry errors and inserted **2** missing metadata rows  
-- Verified **100%** accuracy of `total_price` recalculations with **0** discrepancies  
-- Uncovered median order values via seaborn box plots: **$14.50** (Classic), **$17.00** (Veggie), **$18.20** (Supreme), **$19.10** (Chicken); top 5% orders exceed **$30**
-
----
-
-## 🎓 Education  
-**University of Minnesota – Twin Cities**  
-_Bachelor of Science in Statistical Science (Expected June 2026)_  
-- Mooty Scholarship Recipient  
-- Key Courses: Risk Management & Insurance Analytics; Statistical Computing; Monte Carlo Methods; Regression & Correlated Data; Optimization
-
----
-
-## 📜 Certificates  
-- Google Advanced Data Analytics Professional Certificate  
-- Google Data Analytics Specialization  
-
----
-
-## 📬 Contact  
-- **LinkedIn:** [@tejiria](https://www.linkedin.com/in/tejiria)  
-- **Email:** tejiriaeducation@gmail.com  
-- **GitHub:** [ErnestTAzukaeme](https://github.com/ErnestTAzukaeme)  
-
-
-
-
-
-
-
-
+## License
+This project is provided for educational purposes. 
