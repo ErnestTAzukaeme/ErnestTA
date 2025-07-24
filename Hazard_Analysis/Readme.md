@@ -4,7 +4,7 @@
 Analyze and predict hazardous material pipeline incidents in the U.S. from 2010 to 2018. The project identifies patterns and provides insights to enhance safety planning and hazard mitigation efforts.
 
 ## Background
-Leveraging 4 years of experience as a National Guard Hazmat Specialist, the author combines practical hazmat expertise with data science skills developed through Jose Portilla’s [*Python for Machine Learning and Data Science*](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/) course.
+Leveraging 4 years of experience as a National Guard Hazmat Specialist,  I combined my  practical hazmat expertise with data science skills developed through Jose Portilla’s [*Python for Machine Learning and Data Science*](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/) course.
 
 ## Methods
 - **Data Preprocessing:** Cleaned data and engineered features using Pandas ([PHMSA Incidents Dataset](https://www.kaggle.com/datasets/webmadster/phmsa-incidents-since-2010)).
