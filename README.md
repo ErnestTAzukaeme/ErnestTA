@@ -57,8 +57,8 @@ _Bachelor of Science in Statistical Science (Expected June 2026)_
 
 ## 📬 Contact  
 - **LinkedIn:** [@tejiria](https://www.linkedin.com/in/tejiria)  
-- **Email:** tejiriaeducation@gmail.com  
-- **GitHub:** [ErnestTAzukaeme](https://github.com/ErnestTAzukaeme)  
+- **Email:** azuka001@umn.edu
+- 
 
 
 
